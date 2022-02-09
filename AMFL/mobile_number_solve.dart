@@ -1,7 +1,7 @@
 // employeeInfoResponse.user[index].officeMobile
 
 void main() {
-  String mobile = '8801670871257';
+  String mobile = '880167';
 
   // if (mobile.isNotEmpty) {
   //   if (mobile.substring(0, 2) == '88')
