@@ -36,8 +36,8 @@ After implementing the task for repeated letters, run MastermindTestDifferentLet
 */
 
 void main() {
-  List value1 = ['E', 'D', 'E', 'B'];
-  List value2 = ['C', 'B', 'F', 'E'];
+  // List value1 = ['E', 'D', 'E', 'B'];
+  // List value2 = ['C', 'B', 'F', 'E'];
 
   // List value1 = ['E', 'E', 'A', 'D'];
   // List value2 = ['E', 'E', 'E', 'E'];
@@ -53,8 +53,8 @@ void main() {
   // List value2 = ['A', 'D', 'F', 'E'];
   // List value1 = ['A', 'A', 'B', 'C'];
   // List value2 = ['A', 'D', 'F', 'A'];
-  // List value1 = ['A', 'A', 'B', 'C'];
-  // List value2 = ['D', 'F', 'A', 'A'];
+  List value1 = ['A', 'A', 'B', 'C'];
+  List value2 = ['D', 'F', 'A', 'A'];
   // List value1 = ['A', 'A', 'B', 'C'];
   // List value2 = ['D', 'E', 'F', 'A'];
 
@@ -80,7 +80,7 @@ List solve(List value1, List value2) {
     if (value2[i] != 1)
       for (int j = 0; j < 4; j++) {
         if (value1[i] == value2[j]) {
-          value2[j] = 0;
+          // value2[j] = 0;
           wrongPosition++;
         }
       }
